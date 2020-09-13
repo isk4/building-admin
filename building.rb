@@ -4,6 +4,7 @@ class Building
     
     include BuildingTools
 
+    attr_reader :office
     attr_accessor :apartments, :fixed_fee, :var_fee
 
     def initialize(apartments_quantity, max_people)
